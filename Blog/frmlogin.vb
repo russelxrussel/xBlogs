@@ -42,7 +42,7 @@ Public Class frmlogin
         AcceptButton = Button3
     End Sub
     Private Sub MaskedTextBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles MaskedTextBox1.LostFocus
-        'Call connect()
+        Call connect()
 
         With rs
             .Open("Select * from useracct where usercode='" + MaskedTextBox1.Text + "'", cn)

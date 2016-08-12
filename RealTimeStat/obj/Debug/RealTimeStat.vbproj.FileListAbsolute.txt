@@ -18,3 +18,25 @@ D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\Debug\AxInterop.
 D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\Debug\Interop.WMPLib.dll
 D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\Debug\AxInterop.WMPLib.dll
 D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\Debug\RealTimeStat.vbproj.ResolveComReference.cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\RealTimeStat.exe
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\RealTimeStat.pdb
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\RealTimeStat.xml
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\AnalogClockControl.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Blog.exe
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Interop.ADODB.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Blog.pdb
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Blog.xml
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Interop.MediaPlayer.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\Interop.WMPLib.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\Interop.WMPLib.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.vbproj.ResolveComReference.cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.RealTimeBlogStat.resources
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.Resources.resources
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.vbproj.GenerateResource.Cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.exe
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.xml
+C:\Users\russel\Desktop\MyGitHub\xBlogs\RealTimeStat\obj\Debug\RealTimeStat.pdb

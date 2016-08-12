@@ -6,332 +6,7 @@ Blog
 </name>
 </assembly>
 <members>
-<member name="T:WindowsApplication1.BlogDataSet1.SInfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1.SInfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1.SInfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.SInfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet1)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:WindowsApplication1.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.SInfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet4)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.dinfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet10)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.dinfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet3)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.dinfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet6)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.dinfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet9)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:WindowsApplication1.dsBloodType.bloodType_RFDataTable">
+<member name="T:WindowsApplication1.dsBloodType.bloodType_RFDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -412,6 +87,58 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member><member name="T:WindowsApplication1.dsBloodTypeTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10.dinfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.dinfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet10TableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
@@ -519,58 +246,6 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.SInfoTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet7)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
 </member><member name="T:WindowsApplication1.BlogDataSet8.SInfoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -623,6 +298,123 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4.SInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.SInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7.SInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.SInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
 </member><member name="T:WindowsApplication1.BlogDataSet2.dinfoDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -672,6 +464,214 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member><member name="T:WindowsApplication1.BlogDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1.SInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1.SInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1.SInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.SInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6.dinfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.dinfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9.dinfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.dinfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3.dinfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.dinfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1.BlogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1.BlogDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1.BlogDataSet3TableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>

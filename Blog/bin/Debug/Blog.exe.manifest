@@ -76,26 +76,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Blog.exe" size="1655808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Blog.exe" size="1655296">
       <assemblyIdentity name="Blog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WIdIJRa2XcA3GydVWIMAuYC7vJY=</dsig:DigestValue>
+        <dsig:DigestValue>LkEk7cAJXbl6tIw6n8puDL++VeU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ADODB.dll" size="102400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ADODB.dll" size="126976">
       <assemblyIdentity name="Interop.ADODB" version="2.8.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MP/sJpIkgKzRs80d48xrBECW9N0=</dsig:DigestValue>
+        <dsig:DigestValue>FvD4MPcFz917yCQ3Unt7EOI1djY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -107,7 +107,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>05p0b2LSD5gMtGcf8+q3UzCk5jo=</dsig:DigestValue>
+        <dsig:DigestValue>8kIHL6uo6lt4YOgasFBCI0dGD3s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
