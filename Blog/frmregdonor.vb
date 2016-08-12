@@ -3,35 +3,32 @@ Imports System.Text.RegularExpressions
 Imports System.Data.OleDb.OleDbCommand
 Public Class frmregdonor
 
+    Dim noRecruiterNum As String = "0000"
+    Dim noRecruiterName As String = "SSI*"
+
+
     Private Sub TextBox4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         txtage.CharacterCasing = CharacterCasing.Upper
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim donorSurname = ComboBox1.Text
-        Dim donorFirstName = ComboBox2.Text
-        Dim donorMI = ComboBox3.Text
-
 
         On Error Resume Next
         'If Trim(ComboBox1.Text = "") Then
         '    MsgBox("Please enter the Surname", MsgBoxStyle.Critical, "Warning Message")
         '    Exit Sub String.IsNullOrEmpty(Trim(donorSurname)) Or 
         ' ComboBox1.Text.Trim.Length = 0 Then
-        If String.IsNullOrEmpty(ComboBox1.Text) Then
+        If ComboBox1.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Surname", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
-        ElseIf Trim(ComboBox2.Text = "") Then
+        ElseIf ComboBox2.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Firstname", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
-        ElseIf Trim(ComboBox3.Text = "") Then
-            MsgBox("Please enter the Middle Initial", MsgBoxStyle.Critical, "Warning Message")
-            Exit Sub
-        ElseIf Trim(txtage.Text = "") Then
+            'ElseIf ComboBox3.Text.Trim.Length = 0 Then
+            '    MsgBox("Please enter the Middle Initial", MsgBoxStyle.Critical, "Warning Message")
+            '    Exit Sub
+        ElseIf txtage.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Age", MsgBoxStyle.Critical, "Warning Message")
-            Exit Sub
-        ElseIf Trim(txtrecruiter.Text = "") Then
-            MsgBox("Please enter recruiter name", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
 
@@ -39,6 +36,15 @@ Public Class frmregdonor
             MsgBox("Please select a gender", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
+
+
+        If chkNoRecruiter.Checked = True Then
+            txtrecruiter.Text = ""
+            txtrecruiter.Enabled = False
+        Else
+            txtrecruiter.Enabled = True
+        End If
+
 
         Call connect()
         With rs
@@ -65,7 +71,14 @@ Public Class frmregdonor
                 'Pre Registration
                 .Fields("remarksID").Value = 1
 
-                .Fields("studname").Value = txtrecruiter.Text
+                'Value if there is no recruiter
+                'SSI*
+                If chkNoRecruiter.Checked = True Then
+                    .Fields("studname").Value = "SSI*"
+                Else
+                    .Fields("studname").Value = txtrecruiter.Text
+                End If
+
                 .Update()
                 .Close()
             Else
@@ -118,7 +131,7 @@ Public Class frmregdonor
                     Else
                         .Fields("Rtype").Value = TextBox4.Text
                     End If
-                    .Fields("studno").Value = TextBox3.Text
+
                     .Fields("stno").Value = "Station 3"
                     .Fields("status").Value = "Pre Reg"
                     'Additional Information for Relationship 
@@ -127,8 +140,18 @@ Public Class frmregdonor
                     'Pre Registration
                     .Fields("remarksID").Value = 1
 
-                    .Fields("studname").Value = TextBox5.Text
+                    'This line of condition will check if the user check the no recruiter checkbox
+                    If chkNoRecruiter.Checked = True Then
+                        .Fields("studno").Value = noRecruiterNum
+                        .Fields("studname").Value = noRecruiterName
+                    Else
+                        .Fields("studno").Value = TextBox3.Text
+                        .Fields("studname").Value = TextBox5.Text
+                    End If
+                   
                     .Fields("date").Value = Now.Date
+
+
                     .Update()
                 End With
             End If
@@ -193,7 +216,7 @@ Public Class frmregdonor
         Dim oleb As New OleDb.OleDbDataAdapter
 
         Call connect()
-        rs.Open("select * from sinfo", cn)
+        rs.Open("select * from sinfo", cn) '
         oleb.Fill(dt, rs)
         Call connection_close()
         dginfo.DataSource = dt
@@ -209,7 +232,11 @@ Public Class frmregdonor
             End While
         End With
 
+        RadioButton1.Checked = True
+
         cn.Close()
+
+       
     End Sub
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         On Error Resume Next
@@ -239,7 +266,7 @@ Public Class frmregdonor
         cn.Close()
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         On Error Resume Next
         If Trim(ComboBox1.Text = "") Then
             MsgBox("Please enter the Surname", MsgBoxStyle.Critical, "Warning Message")
@@ -412,7 +439,7 @@ Public Class frmregdonor
 
     End Sub
 
-    Private Sub ComboBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox1.LostFocus
+    Private Sub ComboBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs)
         ComboBox1.Text = UCase(ComboBox1.Text)
     End Sub
 
@@ -423,7 +450,7 @@ Public Class frmregdonor
         ComboBox3.Items.Clear()
         ComboBox2.Text = ""
         ComboBox3.Text = ""
-    
+
         Call connect()
 
         With rs
@@ -537,6 +564,8 @@ Public Class frmregdonor
         dginfo.DataSource = ca
     End Sub
 
+  
+
     Private Sub dginfo_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles dginfo.Click
         On Error Resume Next
         TextBox3.Text = dginfo.CurrentRow.Cells(0).Value
@@ -544,6 +573,29 @@ Public Class frmregdonor
         TextBox5.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
         txtrecruiter.Text = ""
         txtrecruiter.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
+
+        'This will show on label for recruiter brief info
+        lblRNum.Text = dginfo.CurrentRow.Cells(0).Value
+        lblRName.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
+        lblRType.Text = dginfo.CurrentRow.Cells(7).Value
+
+
+        'Condition if selection is student
+        Dim recruiterNum As String = ""
+        If lblRType.Text = "Student" Then
+            'This will display image/photo of Student Only
+            recruiterNum = lblRNum.Text
+
+
+        Else
+            recruiterNum = "xxx"
+        End If
+
+        Dim folder As String = "\\192.168.2.6\photo"
+        Dim fileName As String = System.IO.Path.Combine(folder, recruiterNum & ".jpg")
+        picRecruiter.Image = Image.FromFile(fileName)
+
+       
     End Sub
 
     Private Sub DateTimePicker1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles DateTimePicker1.LostFocus
@@ -559,6 +611,5 @@ Public Class frmregdonor
         End If
         txtage.Text = Val(DateTimePicker2.Value.Year) - Val(DateTimePicker1.Value.Year)
     End Sub
-
 
 End Class
