@@ -481,3 +481,10 @@ E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.vbp
 E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe
 E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.xml
 E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.exe.config
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.ADODB.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.VBRUN.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.exe
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.xml
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.pdb
