@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Blog.exe" version="1.0.0.21" publicKeyToken="a72e57ace66804b2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="blood.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Blog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Blog.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ADODB.dll" size="110592">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>o/V93eadQXHNnFDbbFfni9zgjeg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Blog.exe" size="943104">
+      <assemblyIdentity name="Blog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gmwYP74Cjp4PeUscuiv1qyNlmaQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ADODB.dll" size="102400">
+      <assemblyIdentity name="Interop.ADODB" version="2.8.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cFCNujD7ByC/LYIe74PdW45oZ/4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.ProcessingObjectModel.dll" size="53248">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+X3UhoN/6vjlBdWlGIivnLT8Ukc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="339968">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8F5516E30MOpt2ZRp2v0T58ehbc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Blog.exe.config" size="1860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r+Bc5KWxz7rzHibXfrmZFCixWbA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="blood.ico" size="93363">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gRepfRwkCX0oLUzO1w+U+kK0X98=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=STATEFIE-DA3BE4\norwin" issuerKeyHash="ac029588d412a6fa44f068309760a5906b720554" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lpXMgdsNiolJOYLji7q2U+D2pxs=</DigestValue></Reference></SignedInfo><SignatureValue>kbeup3DNGSCDNzF1jsNNVVm+4a42N8VSuoZ/dcTe/EfzeyDfKQrHaWrZd+RU7nun+Y/fm5KGYR7Om0D8cR9tc7x+M/U7AUk8CQYhhXPlqGsQGw0t3xJbLwFBkXPkotDv22RMZtkXTRKhZnNCc4rAzFQEUYw9jTv3cFyFbSfpQDQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x0es8QPwk9Bf7qKaYdyy0y4eCpYvQg+jKZs1OkZh4ixoRpCKyBTFryXZN4bd4xYr9E2z5pJHSBlYkUT3Rl5VmaIfTYr6Vlo1UhTUCS6aI7NPBLQqwaWHG5I0VBkYv/GsiARcybvTUAYXD+L5skIqUdzGeO37YajrXEjghDFbuJc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1ba7f6e053b6ba8be3823949898a0ddb81cc9596" Description="" Url=""><as:assemblyIdentity name="Blog.exe" version="1.0.0.21" publicKeyToken="a72e57ace66804b2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STATEFIE-DA3BE4\norwin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RzByJMpz7hycWuYyUDyF1wf6ObM=</DigestValue></Reference></SignedInfo><SignatureValue>LezD4y0EU7Su+R4wCgOiOkBp2HMobKy06mOytFh8Y4m3XZKkquYfEbjDbQ6esGjXPEiO5xqirgiWfKq19RlHKdt4axhR5n7s/51UN/s3UftarQF26WaYtICxbqZfate9l4D2VVP8iR71rd1ERPNS1AGw/oGyFSFxMLd1v847SQY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x0es8QPwk9Bf7qKaYdyy0y4eCpYvQg+jKZs1OkZh4ixoRpCKyBTFryXZN4bd4xYr9E2z5pJHSBlYkUT3Rl5VmaIfTYr6Vlo1UhTUCS6aI7NPBLQqwaWHG5I0VBkYv/GsiARcybvTUAYXD+L5skIqUdzGeO37YajrXEjghDFbuJc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVagAwIBAgIQlHj++EHLQJFNAFalw8LfCDAJBgUrDgMCHQUAMDcxNTAzBgNVBAMeLABTAFQAQQBUAEUARgBJAEUALQBEAEEAMwBCAEUANABcAG4AbwByAHcAaQBuMB4XDTA5MDgxNTE3NDQyNVoXDTEwMDgxNTIzNDQyNVowNzE1MDMGA1UEAx4sAFMAVABBAFQARQBGAEkARQAtAEQAQQAzAEIARQA0AFwAbgBvAHIAdwBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMdHrPED8JPQX+6immHcstMuHgqWL0IPoymbNTpGYeIsaEaQisgUxa8l2TeG3eMWK/RNs+aSR0gZWJFE90ZeVZmiH02K+lZaNVIU1AkumiOzTwS0KsGlhxuSNFQZGL/xrIgEXMm701AGFw/i+bJCKlHcxnjt+2Go61xI4IQxW7iXAgMBAAEwCQYFKw4DAh0FAAOBgQB7n6L6EpsiyuduGFZTSrGOyMetNZikg9LAigdLF0zBOS/IG4/izlvaX15y5RF8ThxYf22gmCRvyG4TOWq8aKPjwCXGj4XauhwIolg/v98CftC0dfSTroaZap1Kc9tBKRdOAqNZ071owiOIT7whMRUuX1IdKs9meaYV0Fb/Lz2iuA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

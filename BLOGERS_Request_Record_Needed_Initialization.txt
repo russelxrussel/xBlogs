@@ -1,0 +1,27 @@
+Needed Record of Student 
+FIELDS
+[1] StudNo
+[2] Surname
+[3] Firstname
+[4] Leveltype *
+[5] LevelCode *
+[6] Section
+
+-------------------------
+Other Needed Record 
+
+FACULTY
+[1] EMPLOYEECODE
+[2] Surname
+[3] Firstname
+
+STAFF
+[1] EMPLOYEECODE
+[2] Surname
+[3] Firstname
+
+MANAGEMENT
+[1] EMPLOYEECODE
+[2] Surname
+[3] Firstname
+

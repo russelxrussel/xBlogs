@@ -1,0 +1,11 @@
+9:28 AM 1/8/2014
+> Modify Login Design and Home Design.
+> Adding Tooltips in Login and Home controls.
+> Adding User Details Info in Home Form.
+> Modify Login Procedure and enhance notification.
+> Turn ON status features of Account User.
+
+7:31 AM 1/10/2014
+>Create New Database for and label BLOG_HISTORY this is to transfer all record from BLOG Database and use it as History of Data.
+
+

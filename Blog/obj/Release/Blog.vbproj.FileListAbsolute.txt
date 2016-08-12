@@ -1,0 +1,67 @@
+D:\Blog\Blog\Blog\bin\Release\Blog.exe.config
+D:\Blog\Blog\Blog\bin\Release\Blog.exe.manifest
+D:\Blog\Blog\Blog\bin\Release\Blog.application
+D:\Blog\Blog\Blog\bin\Release\Blog.exe
+D:\Blog\Blog\Blog\bin\Release\Blog.pdb
+D:\Blog\Blog\Blog\bin\Release\Blog.xml
+D:\Blog\Blog\Blog\bin\Release\Interop.ADODB.dll
+D:\Blog\Blog\Blog\obj\Release\ResolveAssemblyReference.cache
+D:\Blog\Blog\Blog\obj\Release\Interop.ADODB.dll
+D:\Blog\Blog\Blog\obj\Release\Blog.vbproj.ResolveComReference.cache
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmregdonor.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmlogin.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Resources.resources
+D:\Blog\Blog\Blog\obj\Release\Blog.vbproj.GenerateResource.Cache
+D:\Blog\Blog\Blog\obj\Release\Blog.exe.manifest
+D:\Blog\Blog\Blog\obj\Release\Blog.application
+D:\Blog\Blog\Blog\obj\Release\Blog.exe
+D:\Blog\Blog\Blog\obj\Release\Blog.xml
+D:\Blog\Blog\Blog\obj\Release\Blog.pdb
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmchangecredit.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmhome.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmreception.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmrecording.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmstudregistration.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmnavigation.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report1.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report2.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report3.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report4.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report5.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report6.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report7.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report8.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report9.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.frmhome1.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report10.resources
+D:\Blog\Blog\Blog\obj\Release\WindowsApplication1.Report11.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Release\Blog.exe.config
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Interop.ADODB.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Interop.VBRUN.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Blog.vbproj.ResolveComReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Blog.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Blog.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Blog.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\ResolveAssemblyReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmaccount_manager.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmchangecredit.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmhome.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmlogin.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmnavigation.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmreception.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmrecording.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmregdonor.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.frmstudregistration.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Resources.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report1.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report10.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report11.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report2.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report3.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report4.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report5.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report6.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report7.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report8.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\WindowsApplication1.Report9.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Release\Blog.vbproj.GenerateResource.Cache

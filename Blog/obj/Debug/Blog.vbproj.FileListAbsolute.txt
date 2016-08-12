@@ -1,0 +1,483 @@
+D:\Blog\Blog\Blog\bin\Debug\Blog.exe
+D:\Blog\Blog\Blog\bin\Debug\Blog.pdb
+D:\Blog\Blog\Blog\bin\Debug\Blog.xml
+D:\Blog\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Blog\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Blog\Blog\Blog\obj\Debug\Blog.exe
+D:\Blog\Blog\Blog\obj\Debug\Blog.xml
+D:\Blog\Blog\Blog\obj\Debug\Blog.pdb
+D:\Blog\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Blog\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Blog\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Blog\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Blog\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Blog\Blog\Blog\bin\Debug\Blog.application
+D:\Blog\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Blog\Blog\Blog\obj\Debug\Blog.application
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmhome1.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Program\Blog\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.exe
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.xml
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.pdb
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.application
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.exe
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.pdb
+D:\Program\Blog\Blog\Blog\bin\Debug\Blog.xml
+D:\Program\Blog\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Program\Blog\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmhome1.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Program\Blog\Blog\Blog\obj\Debug\Blog.application
+F:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.exe.config
+F:\Program\Blog(old)\Blog\Blog\obj\Debug\Interop.ADODB.dll
+F:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+F:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.exe
+F:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.xml
+F:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.pdb
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.exe
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.xml
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.pdb
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.application
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.exe
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.pdb
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Blog.xml
+D:\Program\Blog(old)\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmhome1.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Program\Blog(old)\Blog\Blog\obj\Debug\Blog.application
+D:\Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Blogers\Blog\Blog\obj\Debug\Interop.LVbuttons.dll
+D:\Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\Blogers\Blog\Blog\obj\Debug\Interop.vistaButton.dll
+D:\Blogers\Blog\Blog\obj\Debug\AxInterop.LVbuttons.dll
+D:\Blogers\Blog\Blog\obj\Debug\AxInterop.vistaButton.dll
+D:\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\Blogers\Blog\Blog\bin\Debug\AnalogClockControl.dll
+D:\Blogers\Blog\Blog\bin\Debug\AnalogClockControl.xml
+D:\Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Blogers\Blog\Blog\bin\Debug\Interop.LVbuttons.dll
+D:\Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\Blogers\Blog\Blog\bin\Debug\Interop.vistaButton.dll
+D:\Blogers\Blog\Blog\bin\Debug\AxInterop.LVbuttons.dll
+D:\Blogers\Blog\Blog\bin\Debug\AxInterop.vistaButton.dll
+D:\Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\Blogers\Blog\Blog\obj\Debug\Blog.exe
+D:\Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.LVbuttons.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.vistaButton.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\AxInterop.LVbuttons.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\AxInterop.vistaButton.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.exe
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\AnalogClockControl.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\AnalogClockControl.xml
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.LVbuttons.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.vistaButton.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\AxInterop.LVbuttons.dll
+D:\Final Program\Blogers\Blog\Blog\bin\Debug\AxInterop.vistaButton.dll
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\Interop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\AxInterop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\bin\Debug\AxInterop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Interop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\AxInterop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\AxInterop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.exe
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\Turnover Files(norwin)\Final Program\Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Interop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Interop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\AxInterop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\AxInterop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\AnalogClockControl.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\AnalogClockControl.xml
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Interop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\Interop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\AxInterop.LVbuttons.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\bin\Debug\AxInterop.vistaButton.dll
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\Turnover Files(norwin)\Final Program\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.xml
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.pdb
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.application
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.pdb
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Blog.xml
+G:\Copy of Blogers\Blog\Blog\bin\Debug\AnalogClockControl.xml
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+G:\Copy of Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+G:\Copy of Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+G:\Copy of Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\AnalogClockControl.xml
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\xtra\Copy of Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\xtra\Copy of Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.config
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.xml
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.pdb
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.application
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.exe
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.pdb
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Blog.xml
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\x-files\SSI_Project\Copy of Blogers\Blog\Blog\obj\Debug\Blog.application
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.exe.config
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.ADODB.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.exe.manifest
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.application
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Interop.ADODB.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Interop.VBRUN.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\ResolveAssemblyReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmhome.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmlogin.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmnavigation.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmreception.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmrecording.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Resources.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report1.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report10.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report11.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report2.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report3.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report4.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report5.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report6.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report7.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report8.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\WindowsApplication1.Report9.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe.manifest
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.application
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.exe.config
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.ADODB.dll
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.xml
+E:\x-files\SSI_Project\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.pdb
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\bin\Debug\Blog.exe.config
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.ADODB.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Interop.VBRUN.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.xml
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.pdb

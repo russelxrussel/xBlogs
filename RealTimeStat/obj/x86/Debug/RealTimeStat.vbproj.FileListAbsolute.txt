@@ -1,0 +1,50 @@
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.ADODB.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\AnalogClockControl.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.vbproj.ResolveComReference.cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.RealTimeBlogStat.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.Resources.resources
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.vbproj.GenerateResource.Cache
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.exe
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.xml
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.pdb
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.MediaPlayer.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.NSPlay.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.MediaPlayer.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.NSPlay.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.AXVLC.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\AxInterop.AXVLC.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.AXVLC.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\AxInterop.AXVLC.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.WMPLib.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\AxInterop.WMPLib.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.WMPLib.dll
+D:\x-files\SSI_Project\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.exe
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.pdb
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\RealTimeStat.xml
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\AnalogClockControl.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.exe
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.ADODB.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.pdb
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Blog.xml
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.MediaPlayer.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\Interop.WMPLib.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\bin\x86\Debug\AxInterop.WMPLib.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.MediaPlayer.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\Interop.WMPLib.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.vbproj.ResolveComReference.cache
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.RealTimeBlogStat.resources
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.Resources.resources
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.vbproj.GenerateResource.Cache
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.exe
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.xml
+E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\RealTimeStat\obj\x86\Debug\RealTimeStat.pdb
