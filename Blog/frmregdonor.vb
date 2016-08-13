@@ -3,8 +3,12 @@ Imports System.Text.RegularExpressions
 Imports System.Data.OleDb.OleDbCommand
 Public Class frmregdonor
 
-    Dim noRecruiterNum As String = "0000"
-    Dim noRecruiterName As String = "SSI*"
+    Dim _noRecruiterNum As String = "0000"
+    Dim _noRecruiterName As String = "SSI*"
+
+    Dim _recruiterType As Boolean = True
+    Dim _recruiterImage As String = ""
+    Dim _recruiterImageDefault As String = "\\192.168.2.6\photo\x.jpg"
 
 
     Private Sub TextBox4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -31,6 +35,15 @@ Public Class frmregdonor
             MsgBox("Please enter the Age", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
+
+        'Check value of Age
+        Dim Edad As Integer = 0
+        Edad = Integer.Parse(txtage.Text)
+        If Edad <= 14 Or Edad >= 66 Then
+            MsgBox("Age should 15 Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
+            Exit Sub
+        End If
+
 
         If RadioButton1.Checked = False And RadioButton2.Checked = False Then
             MsgBox("Please select a gender", MsgBoxStyle.Critical, "Warning Message")
@@ -142,13 +155,13 @@ Public Class frmregdonor
 
                     'This line of condition will check if the user check the no recruiter checkbox
                     If chkNoRecruiter.Checked = True Then
-                        .Fields("studno").Value = noRecruiterNum
-                        .Fields("studname").Value = noRecruiterName
+                        .Fields("studno").Value = _noRecruiterNum
+                        .Fields("studname").Value = _noRecruiterName
                     Else
                         .Fields("studno").Value = TextBox3.Text
                         .Fields("studname").Value = TextBox5.Text
                     End If
-                   
+
                     .Fields("date").Value = Now.Date
 
 
@@ -194,100 +207,34 @@ Public Class frmregdonor
 
     End Sub
 
-    Private Sub frmregdonor_Deactivate(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Deactivate
-
-    End Sub
-
-    Private Sub frmregdonor_Disposed(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Disposed
-
-    End Sub
-
-    Private Sub frmregdonor_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
-        If cn.State = 1 Then
-            'MsgBox(cn.State.ToString)
-            cn.Close()
-        Else
-        End If
-    End Sub
- 
-    Private Sub frmregdonor_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-        Dim dt As New DataTable
-        Dim oleb As New OleDb.OleDbDataAdapter
-
-        Call connect()
-        rs.Open("select * from sinfo", cn) '
-        oleb.Fill(dt, rs)
-        Call connection_close()
-        dginfo.DataSource = dt
-
-        Call connect()
-
-        With rs
-            If .State <> 0 Then .Close()
-            .Open("select * from dinfo order by sname ASC", cn, 2, 2)
-            While .EOF = False
-                ComboBox1.Items.Add(.Fields("sname").Value)
-                .MoveNext()
-            End While
-        End With
-
-        RadioButton1.Checked = True
-
-        cn.Close()
-
-       
-    End Sub
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         On Error Resume Next
-        Me.Close()
-        'frmhome1.Show()
-        txtbirthday.Text = "##/##/####"
-        txtage.Text = ""
-        txtrecruiter.Text = ""
-        RadioButton1.Checked = False
-        RadioButton2.Checked = False
-        ComboBox1.Text = ""
-        ComboBox2.Text = ""
-        ComboBox3.Text = ""
-        TextBox3.Text = ""
-        TextBox4.Text = ""
-        TextBox5.Text = ""
-        txtrecruiter.ReadOnly = False
-        dginfo.Enabled = True
-        Dim cn As New ADODB.Connection
-        Dim rs As New ADODB.Recordset
 
-        Call connect()
-        With rs
-            .Open("select * from dinfo", cn)
-            .Close()
-        End With
-        cn.Close()
-    End Sub
-
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        On Error Resume Next
-        If Trim(ComboBox1.Text = "") Then
+        If ComboBox1.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Surname", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
-        ElseIf Trim(ComboBox2.Text = "") Then
+        ElseIf ComboBox2.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Firstname", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
-        ElseIf Trim(ComboBox3.Text = "") Then
-            MsgBox("Please enter the Middle Initial", MsgBoxStyle.Critical, "Warning Message")
-            Exit Sub
-        ElseIf Trim(txtage.Text = "") Then
+            'ElseIf ComboBox3.Text.Trim.Length = 0 Then
+            '    MsgBox("Please enter the Middle Initial", MsgBoxStyle.Critical, "Warning Message")
+            '    Exit Sub
+        ElseIf txtage.Text.Trim.Length = 0 Then
             MsgBox("Please enter the Age", MsgBoxStyle.Critical, "Warning Message")
-            Exit Sub
-        ElseIf Trim(txtrecruiter.Text = "") Then
-            MsgBox("Please enter recruiter name", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
 
         If RadioButton1.Checked = False And RadioButton2.Checked = False Then
             MsgBox("Please select a gender", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
+        End If
+
+
+        If chkNoRecruiter.Checked = True Then
+            txtrecruiter.Text = ""
+            txtrecruiter.Enabled = False
+        Else
+            txtrecruiter.Enabled = True
         End If
 
         Call connect()
@@ -313,6 +260,7 @@ Public Class frmregdonor
                 'Russel Vasquez 1-15-2014
                 .Fields("stationID").Value = 3
                 .Fields("remarksID").Value = 2
+
                 .Fields("studname").Value = txtrecruiter.Text
                 .Update()
                 .Close()
@@ -366,7 +314,7 @@ Public Class frmregdonor
                     Else
                         .Fields("Rtype").Value = TextBox4.Text
                     End If
-                    .Fields("studno").Value = TextBox3.Text
+
                     .Fields("stno").Value = "Station 3"
                     .Fields("status").Value = "Processing"
                     'Additional Information for Relationship 
@@ -374,7 +322,16 @@ Public Class frmregdonor
                     .Fields("stationID").Value = 3
                     .Fields("remarksID").Value = 2
 
-                    .Fields("studname").Value = TextBox5.Text
+                    'This line of condition will check if the user check the no recruiter checkbox
+                    If chkNoRecruiter.Checked = True Then
+                        .Fields("studno").Value = _noRecruiterNum
+                        .Fields("studname").Value = _noRecruiterName
+                    Else
+                        .Fields("studno").Value = TextBox3.Text
+                        .Fields("studname").Value = TextBox5.Text
+                    End If
+
+
                     .Fields("date").Value = Now.Date
                     .Update()
                 End With
@@ -417,6 +374,81 @@ Public Class frmregdonor
         dginfo.Enabled = True
     End Sub
 
+    Private Sub frmregdonor_Deactivate(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Deactivate
+
+    End Sub
+
+    Private Sub frmregdonor_Disposed(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Disposed
+
+    End Sub
+
+    Private Sub frmregdonor_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+        If cn.State = 1 Then
+            'MsgBox(cn.State.ToString)
+            cn.Close()
+        Else
+        End If
+    End Sub
+ 
+    Private Sub frmregdonor_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+        Dim dt As New DataTable
+        Dim oleb As New OleDb.OleDbDataAdapter
+
+        Call connect()
+        rs.Open("select * from sinfo", cn) '
+        oleb.Fill(dt, rs)
+        Call connection_close()
+        dginfo.DataSource = dt
+
+        Call connect()
+
+        With rs
+            If .State <> 0 Then .Close()
+            .Open("select * from dinfo order by sname ASC", cn, 2, 2)
+            While .EOF = False
+                ComboBox1.Items.Add(.Fields("sname").Value)
+                .MoveNext()
+            End While
+        End With
+
+        RadioButton1.Checked = True
+
+        cn.Close()
+
+        picRecruiter.Image = Image.FromFile(_recruiterImageDefault)
+       
+    End Sub
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        On Error Resume Next
+        Me.Close()
+        'frmhome1.Show()
+        txtbirthday.Text = "##/##/####"
+        txtage.Text = ""
+        txtrecruiter.Text = ""
+        RadioButton1.Checked = False
+        RadioButton2.Checked = False
+        ComboBox1.Text = ""
+        ComboBox2.Text = ""
+        ComboBox3.Text = ""
+        TextBox3.Text = ""
+        TextBox4.Text = ""
+        TextBox5.Text = ""
+        txtrecruiter.ReadOnly = False
+        dginfo.Enabled = True
+        Dim cn As New ADODB.Connection
+        Dim rs As New ADODB.Recordset
+
+        Call connect()
+        With rs
+            .Open("select * from dinfo", cn)
+            .Close()
+        End With
+        cn.Close()
+    End Sub
+
+   
+
     Private Sub ComboBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles ComboBox1.KeyPress
 
         ComboBox2.Items.Clear()
@@ -439,9 +471,11 @@ Public Class frmregdonor
 
     End Sub
 
-    Private Sub ComboBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs)
+    Private Sub ComboBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox1.LostFocus
         ComboBox1.Text = UCase(ComboBox1.Text)
     End Sub
+
+   
 
 
     Private Sub ComboBox1_SelectedIndexChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -524,19 +558,23 @@ Public Class frmregdonor
                         txtrecruiter.ReadOnly = True
                         txtrecruiter.BackColor = Color.White
                         dginfo.Enabled = False
+                        chkNoRecruiter.Enabled = False
                     End If
-
+                    cn.Close()
                 Else
                     ComboBox1.Text = ""
                     ComboBox2.Text = ""
                     ComboBox3.Text = ""
+                    chkNoRecruiter.Enabled = True
                     dginfo.Enabled = True
+                    cn.Close()
                 End If
+
             End If
 
         End With
         ComboBox3.Text = UCase(ComboBox3.Text)
-        cn.Close()
+        '   cn.Close()
     End Sub
     Private Sub recon()
         'Me.SInfoTableAdapter.Fill(Me.BlogDataSet8.SInfo
@@ -571,32 +609,47 @@ Public Class frmregdonor
         TextBox3.Text = dginfo.CurrentRow.Cells(0).Value
         TextBox4.Text = dginfo.CurrentRow.Cells(7).Value
         TextBox5.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
-        txtrecruiter.Text = ""
         txtrecruiter.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
 
         'This will show on label for recruiter brief info
         lblRNum.Text = dginfo.CurrentRow.Cells(0).Value
         lblRName.Text = dginfo.CurrentRow.Cells(1).Value & " " & dginfo.CurrentRow.Cells(2).Value & " " & dginfo.CurrentRow.Cells(3).Value
-        lblRType.Text = dginfo.CurrentRow.Cells(7).Value
+        lblRlevelSection.Text = dginfo.CurrentRow.Cells(5).Value & " - " & dginfo.CurrentRow.Cells(6).Value
 
+        _recruiterType = dginfo.CurrentRow.Cells(9).Value
 
+        _recruiterImage = dginfo.CurrentRow.Cells(10).Value
         'Condition if selection is student
-        Dim recruiterNum As String = ""
-        If lblRType.Text = "Student" Then
-            'This will display image/photo of Student Only
-            recruiterNum = lblRNum.Text
+        'Dim recruiterNum As String = ""
+
+        'If _recruiterType = True Then
+        '    'This will display image/photo of Student Only
+        '    recruiterNum = lblRNum.Text
+        'Else
+        '    recruiterNum = "xxx"
+        'End If
 
 
-        Else
-            recruiterNum = "xxx"
-        End If
+        'Dim folder As String = "\\192.168.2.6\photo"
+        'Dim fileName As String = System.IO.Path.Combine(folder, recruiterNum & ".jpg")
+        'picRecruiter.Image = Image.FromFile(fileName)
 
-        Dim folder As String = "\\192.168.2.6\photo"
-        Dim fileName As String = System.IO.Path.Combine(folder, recruiterNum & ".jpg")
-        picRecruiter.Image = Image.FromFile(fileName)
+        'Call the function to show image
 
-       
+        picRecruiter.Image = Image.FromFile(_recruiterImage)
+
     End Sub
+
+    ''This is a function that display image
+    'Private Sub showImage(ByVal imageLocation As String)
+    '    'Dim folder As String = "\\192.168.2.6\photo"
+    '    'Dim fileName As String = System.IO.Path.Combine(folder, imageID & ".jpg")
+    '    '' picRecruiter.Image = Image.FromFile(fileName)
+
+    '    picRecruiter.Image = Image.FromFile(imageLocation)
+    'End Sub
+
+
 
     Private Sub DateTimePicker1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles DateTimePicker1.LostFocus
         If DateTimePicker1.Value.Month > DateTimePicker2.Value.Month Then
@@ -612,4 +665,25 @@ Public Class frmregdonor
         txtage.Text = Val(DateTimePicker2.Value.Year) - Val(DateTimePicker1.Value.Year)
     End Sub
 
+
+
+    Private Sub chkNoRecruiter_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles chkNoRecruiter.CheckedChanged
+
+        'If selected clear things
+        If chkNoRecruiter.Checked = True Then
+            txtrecruiter.Text = ""
+            lblRName.Text = ""
+            lblRlevelSection.Text = ""
+            lblRNum.Text = ""
+
+            dginfo.Enabled = False
+
+            picRecruiter.Image = Image.FromFile(_recruiterImageDefault)
+        Else
+            dginfo.Enabled = True
+        End If
+
+    End Sub
+
+   
 End Class

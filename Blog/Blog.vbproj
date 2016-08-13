@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ADO_NET.vb" />
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="base.vb" />
     <Compile Include="BlogDataSet10.Designer.vb">
       <AutoGen>True</AutoGen>

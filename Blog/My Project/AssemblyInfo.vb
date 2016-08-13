@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("SSI - BLOG Electronic Registration System")> 
 <Assembly: AssemblyCompany("Statefields School Inc.")> 
 <Assembly: AssemblyProduct("B.L.O.G.E.R.S")> 
-<Assembly: AssemblyCopyright("Copyright © statefields 2014")> 
+<Assembly: AssemblyCopyright("Copyright © statefields 2016")> 
 <Assembly: AssemblyTrademark("russel")> 
 
 <Assembly: ComVisible(False)>
@@ -32,4 +32,4 @@ Imports System.Runtime.InteropServices
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyFileVersion("2.0.0.0")> 

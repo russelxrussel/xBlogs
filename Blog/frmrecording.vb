@@ -228,6 +228,11 @@ Public Class frmrecording
             .Open("select * from sinfo where studno='" + TextBox1.Text + "'", cn)
             If .EOF = False Then
                 TextBox4.Text = .Fields("pts").Value
+
+                'This will show the image of selected recruiter
+                Dim imageLoc As String = .Fields("recImage").Value
+                picRecruiter.Image = Image.FromFile(imageLoc)
+
                 .Close()
             End If
         End With
@@ -338,4 +343,10 @@ Public Class frmrecording
     Private Sub frmrecording_ResizeEnd(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.ResizeEnd
 
     End Sub
+
+    Private Sub dginfo_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dginfo.CellContentClick
+
+    End Sub
+
+
 End Class

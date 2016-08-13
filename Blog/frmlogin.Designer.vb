@@ -89,7 +89,7 @@ Partial Class frmlogin
         Me.Button3.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ImageKey = "key.ico"
         Me.Button3.ImageList = Me.ImageList1
-        Me.Button3.Location = New System.Drawing.Point(139, 95)
+        Me.Button3.Location = New System.Drawing.Point(70, 95)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(68, 33)
         Me.Button3.TabIndex = 4
@@ -182,7 +182,7 @@ Partial Class frmlogin
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(551, 31)
+        Me.PictureBox1.Location = New System.Drawing.Point(519, 57)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(330, 61)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -232,7 +232,7 @@ Partial Class frmlogin
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(498, 341)
+        Me.ClientSize = New System.Drawing.Size(497, 346)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.lblInfo)
         Me.Controls.Add(Me.Button1)
@@ -251,7 +251,7 @@ Partial Class frmlogin
         Me.Name = "frmlogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "LOGIN - User Authentication"
-        Me.TransparencyKey = System.Drawing.Color.Transparent
+        Me.TransparencyKey = System.Drawing.SystemColors.ControlLightLight
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

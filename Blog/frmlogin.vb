@@ -70,8 +70,6 @@ Public Class frmlogin
                 rs.Close()
                 Call connection_close()
 
-
-
             Else
                 'MsgBox("User code not exist", MsgBoxStyle.Critical, "Warning Message")
                 _flgUCODE = False
@@ -84,8 +82,7 @@ Public Class frmlogin
                 Exit Sub
             End If
         End With
-
-        '   Call connection_close()
+        'Call connection_close()
     End Sub
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         msg = MsgBox("Are you sure you want to exit?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Exit")

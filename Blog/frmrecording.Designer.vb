@@ -47,6 +47,8 @@ Partial Class frmrecording
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.cmbStation = New System.Windows.Forms.ComboBox
         Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.picRecruiter = New System.Windows.Forms.PictureBox
         Me.lblRecruiterName = New System.Windows.Forms.Label
         Me.Label7 = New System.Windows.Forms.Label
         Me.lblRemarksID = New System.Windows.Forms.Label
@@ -56,6 +58,8 @@ Partial Class frmrecording
         CType(Me.dginfo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.picRecruiter, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox2
@@ -91,21 +95,21 @@ Partial Class frmrecording
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(10, 27)
+        Me.Label3.Location = New System.Drawing.Point(8, 24)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(82, 13)
+        Me.Label3.Size = New System.Drawing.Size(30, 13)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Recruiter ID:"
+        Me.Label3.Text = "ID :"
         '
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox1.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(119, 19)
+        Me.TextBox1.Location = New System.Drawing.Point(11, 40)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(194, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(89, 21)
         Me.TextBox1.TabIndex = 1
         '
         'DinfoBindingSource
@@ -116,18 +120,18 @@ Partial Class frmrecording
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(10, 56)
+        Me.Label4.Location = New System.Drawing.Point(7, 64)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(101, 13)
+        Me.Label4.Size = New System.Drawing.Size(45, 13)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Recruiter Name:"
+        Me.Label4.Text = "Name:"
         '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.Color.White
         Me.TextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox3.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(119, 48)
+        Me.TextBox3.Location = New System.Drawing.Point(10, 80)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(195, 21)
@@ -157,7 +161,7 @@ Partial Class frmrecording
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(651, 187)
+        Me.TextBox4.Location = New System.Drawing.Point(641, 150)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 11
@@ -189,7 +193,7 @@ Partial Class frmrecording
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(651, 213)
+        Me.TextBox7.Location = New System.Drawing.Point(641, 200)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
         Me.TextBox7.TabIndex = 40
@@ -266,6 +270,7 @@ Partial Class frmrecording
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Panel1)
         Me.GroupBox2.Controls.Add(Me.lblRecruiterName)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.TextBox1)
@@ -274,25 +279,46 @@ Partial Class frmrecording
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Location = New System.Drawing.Point(300, 3)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(322, 107)
+        Me.GroupBox2.Size = New System.Drawing.Size(322, 130)
         Me.GroupBox2.TabIndex = 46
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Recruiter Details"
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Green
+        Me.Panel1.Controls.Add(Me.picRecruiter)
+        Me.Panel1.Location = New System.Drawing.Point(211, 14)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(105, 109)
+        Me.Panel1.TabIndex = 106
+        '
+        'picRecruiter
+        '
+        Me.picRecruiter.BackColor = System.Drawing.Color.Gray
+        Me.picRecruiter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.picRecruiter.Location = New System.Drawing.Point(3, 3)
+        Me.picRecruiter.Name = "picRecruiter"
+        Me.picRecruiter.Size = New System.Drawing.Size(99, 103)
+        Me.picRecruiter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picRecruiter.TabIndex = 99
+        Me.picRecruiter.TabStop = False
         '
         'lblRecruiterName
         '
         Me.lblRecruiterName.AutoSize = True
         Me.lblRecruiterName.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblRecruiterName.Location = New System.Drawing.Point(117, 82)
+        Me.lblRecruiterName.Location = New System.Drawing.Point(58, 107)
         Me.lblRecruiterName.Name = "lblRecruiterName"
-        Me.lblRecruiterName.Size = New System.Drawing.Size(0, 13)
+        Me.lblRecruiterName.Size = New System.Drawing.Size(11, 13)
         Me.lblRecruiterName.TabIndex = 46
+        Me.lblRecruiterName.Text = "."
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(67, 82)
+        Me.Label7.Location = New System.Drawing.Point(8, 107)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(44, 13)
         Me.Label7.TabIndex = 45
@@ -330,7 +356,7 @@ Partial Class frmrecording
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(625, 380)
+        Me.ClientSize = New System.Drawing.Size(623, 380)
         Me.Controls.Add(Me.lblBloodType)
         Me.Controls.Add(Me.lblStationID)
         Me.Controls.Add(Me.lblRemarksID)
@@ -354,6 +380,8 @@ Partial Class frmrecording
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.picRecruiter, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -400,4 +428,6 @@ Partial Class frmrecording
     Friend WithEvents lblRemarksID As System.Windows.Forms.Label
     Friend WithEvents lblStationID As System.Windows.Forms.Label
     Friend WithEvents lblBloodType As System.Windows.Forms.Label
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents picRecruiter As System.Windows.Forms.PictureBox
 End Class

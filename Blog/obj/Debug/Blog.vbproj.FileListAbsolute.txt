@@ -482,12 +482,6 @@ E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.exe
 E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.xml
 E:\x-files\SSI_Project\i PROGRAM\BLOGER Enhancement\Blog\Blog\obj\Debug\Blog.pdb
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.exe.config
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.ADODB.dll
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.VBRUN.dll
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.exe
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.xml
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.pdb
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.exe.manifest
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.application
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.exe
@@ -496,6 +490,9 @@ C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Blog.xml
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Interop.ADODB.dll
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\bin\Debug\Interop.VBRUN.dll
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.ADODB.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Interop.VBRUN.dll
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.vbproj.ResolveComReference.cache
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmaccount_manager.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmchangecredit.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmhome.resources
@@ -520,3 +517,6 @@ C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.Repor
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.vbproj.GenerateResource.Cache
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.exe.manifest
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.application
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.exe
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.xml
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.pdb
