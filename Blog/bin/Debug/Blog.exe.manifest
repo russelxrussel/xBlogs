@@ -76,14 +76,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Blog.exe" size="1661952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Blog.exe" size="1662976">
       <assemblyIdentity name="Blog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bqSjOzcTuS0yWqm4m8ePDWV6w/g=</dsig:DigestValue>
+        <dsig:DigestValue>Va/LpuduPaB0Aq3T1+hNCToid+U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -95,7 +95,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>YIGhY9h/gmxRxJEvrStq9sYpq8w=</dsig:DigestValue>
+        <dsig:DigestValue>RjpT01ANjZCci6spqTzpB6l5wMY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -107,7 +107,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>c78nIusS2uPp5dGkqp67Cwe7u98=</dsig:DigestValue>
+        <dsig:DigestValue>ZVvM0jffHRRnUf3EDATR0H06jEA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

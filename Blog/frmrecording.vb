@@ -212,9 +212,18 @@ Public Class frmrecording
         ' MsgBox(dginfo.CurrentRow.Cells(15).Value & " - " & dginfo.CurrentRow.Cells(16).Value)
         'Added Codes and Function
         'Russel 1-15-2014
-        cmbBloodType.Text = showSelectedBloodType(dginfo.CurrentRow.Cells(14).Value)
+
+        Dim strBloodType As String = showSelectedBloodType(dginfo.CurrentRow.Cells(14).Value)
+        If String.IsNullOrEmpty(strBloodType) Then
+            cmbBloodType.Text = "N"
+        Else
+            cmbBloodType.Text = strBloodType
+        End If
+
         cmbStation.Text = showSelectedStation(dginfo.CurrentRow.Cells(15).Value)
         ComboBox1.Text = showSelectedRemarks(dginfo.CurrentRow.Cells(16).Value)
+        ' MsgBox(dginfo.CurrentRow.Cells(16).Value)
+
 
         lblBloodType.Text = showSelectedBloodType(dginfo.CurrentRow.Cells(14).Value)
         lblStationID.Text = dginfo.CurrentRow.Cells(15).Value
@@ -237,6 +246,7 @@ Public Class frmrecording
             End If
         End With
         cn.Close()
+
     End Sub
 
     Private Sub ComboBox1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox1.Click
@@ -323,6 +333,10 @@ Public Class frmrecording
         dtBloodType = objX.getBloodType
         dtRemarks = objX.getRemarks
         dtStation = objX.getStation
+
+        displayBloodType()
+        displayStation()
+        displayRemarks()
     End Sub
 
     Private Sub cmbStation_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbStation.Click

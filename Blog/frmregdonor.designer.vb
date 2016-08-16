@@ -24,8 +24,8 @@ Partial Class frmregdonor
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmregdonor))
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.TextBox6 = New System.Windows.Forms.TextBox
         Me.TextBox1 = New System.Windows.Forms.TextBox
@@ -179,6 +179,7 @@ Partial Class frmregdonor
         '
         'TextBox2
         '
+        Me.TextBox2.Enabled = False
         Me.TextBox2.Location = New System.Drawing.Point(749, 259)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
@@ -186,6 +187,7 @@ Partial Class frmregdonor
         '
         'TextBox3
         '
+        Me.TextBox3.Enabled = False
         Me.TextBox3.Location = New System.Drawing.Point(622, 193)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
@@ -193,6 +195,7 @@ Partial Class frmregdonor
         '
         'TextBox4
         '
+        Me.TextBox4.Enabled = False
         Me.TextBox4.Location = New System.Drawing.Point(749, 357)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
@@ -200,6 +203,7 @@ Partial Class frmregdonor
         '
         'TextBox5
         '
+        Me.TextBox5.Enabled = False
         Me.TextBox5.Location = New System.Drawing.Point(643, 239)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
@@ -211,6 +215,7 @@ Partial Class frmregdonor
         '
         'TextBox7
         '
+        Me.TextBox7.Enabled = False
         Me.TextBox7.Location = New System.Drawing.Point(622, 320)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(170, 20)
@@ -218,6 +223,7 @@ Partial Class frmregdonor
         '
         'TextBox8
         '
+        Me.TextBox8.Enabled = False
         Me.TextBox8.Location = New System.Drawing.Point(761, 213)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 20)
@@ -225,6 +231,7 @@ Partial Class frmregdonor
         '
         'ComboBox4
         '
+        Me.ComboBox4.Enabled = False
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Male", "Female"})
         Me.ComboBox4.Location = New System.Drawing.Point(761, 167)
@@ -234,6 +241,7 @@ Partial Class frmregdonor
         '
         'TextBox9
         '
+        Me.TextBox9.Enabled = False
         Me.TextBox9.Location = New System.Drawing.Point(622, 294)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 20)
@@ -241,6 +249,7 @@ Partial Class frmregdonor
         '
         'txtbirthday
         '
+        Me.txtbirthday.Enabled = False
         Me.txtbirthday.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbirthday.Location = New System.Drawing.Point(793, 111)
         Me.txtbirthday.Mask = "##/##/####"
@@ -250,6 +259,7 @@ Partial Class frmregdonor
         '
         'DateTimePicker2
         '
+        Me.DateTimePicker2.Enabled = False
         Me.DateTimePicker2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker2.Location = New System.Drawing.Point(780, 62)
@@ -259,6 +269,7 @@ Partial Class frmregdonor
         '
         'TextBox10
         '
+        Me.TextBox10.Enabled = False
         Me.TextBox10.Location = New System.Drawing.Point(831, 187)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(100, 20)
@@ -266,6 +277,7 @@ Partial Class frmregdonor
         '
         'TextBox11
         '
+        Me.TextBox11.Enabled = False
         Me.TextBox11.Location = New System.Drawing.Point(749, 383)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(100, 20)
@@ -273,6 +285,7 @@ Partial Class frmregdonor
         '
         'TextBox12
         '
+        Me.TextBox12.Enabled = False
         Me.TextBox12.Location = New System.Drawing.Point(761, 141)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(100, 20)
@@ -280,6 +293,7 @@ Partial Class frmregdonor
         '
         'TextBox13
         '
+        Me.TextBox13.Enabled = False
         Me.TextBox13.Location = New System.Drawing.Point(850, 145)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(100, 20)
@@ -287,6 +301,7 @@ Partial Class frmregdonor
         '
         'TextBox14
         '
+        Me.TextBox14.Enabled = False
         Me.TextBox14.Location = New System.Drawing.Point(793, 239)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(100, 20)
@@ -368,7 +383,7 @@ Partial Class frmregdonor
         Me.DateTimePicker1.Location = New System.Drawing.Point(9, 97)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(108, 21)
-        Me.DateTimePicker1.TabIndex = 1
+        Me.DateTimePicker1.TabIndex = 4
         '
         'RadioButton1
         '
@@ -378,7 +393,7 @@ Partial Class frmregdonor
         Me.RadioButton1.Location = New System.Drawing.Point(373, 97)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(55, 17)
-        Me.RadioButton1.TabIndex = 3
+        Me.RadioButton1.TabIndex = 4
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "MALE"
         Me.RadioButton1.UseVisualStyleBackColor = True
@@ -391,7 +406,7 @@ Partial Class frmregdonor
         Me.RadioButton2.Location = New System.Drawing.Point(434, 96)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(68, 17)
-        Me.RadioButton2.TabIndex = 4
+        Me.RadioButton2.TabIndex = 5
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "FEMALE"
         Me.RadioButton2.UseVisualStyleBackColor = True
@@ -449,7 +464,7 @@ Partial Class frmregdonor
         Me.txtage.Name = "txtage"
         Me.txtage.ReadOnly = True
         Me.txtage.Size = New System.Drawing.Size(46, 21)
-        Me.txtage.TabIndex = 2
+        Me.txtage.TabIndex = 5
         '
         'ComboBox3
         '
@@ -461,7 +476,7 @@ Partial Class frmregdonor
         Me.ComboBox3.MaxLength = 1
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(45, 21)
-        Me.ComboBox3.TabIndex = 0
+        Me.ComboBox3.TabIndex = 2
         '
         'ComboBox2
         '
@@ -472,7 +487,7 @@ Partial Class frmregdonor
         Me.ComboBox2.Location = New System.Drawing.Point(230, 43)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(241, 21)
-        Me.ComboBox2.TabIndex = 76
+        Me.ComboBox2.TabIndex = 1
         '
         'ComboBox1
         '
@@ -483,7 +498,7 @@ Partial Class frmregdonor
         Me.ComboBox1.Location = New System.Drawing.Point(10, 43)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(214, 21)
-        Me.ComboBox1.TabIndex = 75
+        Me.ComboBox1.TabIndex = 0
         '
         'Label3
         '
@@ -578,7 +593,7 @@ Partial Class frmregdonor
         Me.chkNoRecruiter.Location = New System.Drawing.Point(287, 28)
         Me.chkNoRecruiter.Name = "chkNoRecruiter"
         Me.chkNoRecruiter.Size = New System.Drawing.Size(88, 18)
-        Me.chkNoRecruiter.TabIndex = 104
+        Me.chkNoRecruiter.TabIndex = 1
         Me.chkNoRecruiter.Text = "No Recruiter"
         Me.chkNoRecruiter.UseVisualStyleBackColor = True
         '
@@ -638,27 +653,27 @@ Partial Class frmregdonor
         Me.dginfo.BackgroundColor = System.Drawing.SystemColors.InactiveBorder
         Me.dginfo.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised
         Me.dginfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Calibri", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.CornflowerBlue
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dginfo.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Calibri", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.CornflowerBlue
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dginfo.DefaultCellStyle = DataGridViewCellStyle1
         Me.dginfo.GridColor = System.Drawing.Color.Gray
         Me.dginfo.Location = New System.Drawing.Point(2, 70)
         Me.dginfo.Name = "dginfo"
         Me.dginfo.ReadOnly = True
         Me.dginfo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dginfo.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dginfo.RowHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dginfo.RowHeadersWidth = 20
         Me.dginfo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dginfo.Size = New System.Drawing.Size(373, 158)
@@ -699,7 +714,7 @@ Partial Class frmregdonor
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(580, 395)
+        Me.ClientSize = New System.Drawing.Size(574, 395)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)

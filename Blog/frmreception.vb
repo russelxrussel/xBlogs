@@ -331,5 +331,7 @@ Public Class frmreception
         cn.Close()
         dginfo.DataSource = ca
     End Sub
+
+
 End Class
 

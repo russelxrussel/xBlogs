@@ -42,47 +42,54 @@ Public Class frmlogin
         AcceptButton = Button3
     End Sub
     Private Sub MaskedTextBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles MaskedTextBox1.LostFocus
-        Call connect()
+        Try
 
-        With rs
-            .Open("Select * from useracct where usercode='" + MaskedTextBox1.Text + "'", cn)
-            If rs.EOF = False Then
-                'Russel 1-8-2014
-                'Check first if status is enable or disable
-                _status = .Fields("status").Value
-                'MsgBox(_status)
-                'If _status = 0 Then
-                '    MsgBox("Sorry your account was disable at this time, Please coordinate to I.T Department", MsgBoxStyle.Exclamation, "Disable Account")
-                '    lblusername.Text = "Account disabled"
-                '    MaskedTextBox1.Focus()
-                'Else
 
-                TextBox3.Text = .Fields("Access").Value
-                _ACCESS = .Fields("Access").Value
-                'lblusername.Text = .Fields("username").Value
-                _name = .Fields("username").Value
-                _flgUCODE = True
-                lblusername.Text = "Verified"
+            Call connect()
+            With rs
+                .Open("Select * from useracct where usercode='" + MaskedTextBox1.Text + "'", cn)
+                If rs.EOF = False Then
+                    'Russel 1-8-2014
+                    'Check first if status is enable or disable
+                    _status = .Fields("status").Value
+                    'MsgBox(_status)
+                    'If _status = 0 Then
+                    '    MsgBox("Sorry your account was disable at this time, Please coordinate to I.T Department", MsgBoxStyle.Exclamation, "Disable Account")
+                    '    lblusername.Text = "Account disabled"
+                    '    MaskedTextBox1.Focus()
+                    'Else
 
-                'enable password
-                TextBox2.Enabled = True
-                TextBox2.Focus()
-                rs.Close()
-                Call connection_close()
+                    TextBox3.Text = .Fields("Access").Value
+                    _ACCESS = .Fields("Access").Value
+                    'lblusername.Text = .Fields("username").Value
+                    _name = .Fields("username").Value
+                    _flgUCODE = True
+                    lblusername.Text = "Verified"
 
-            Else
-                'MsgBox("User code not exist", MsgBoxStyle.Critical, "Warning Message")
-                _flgUCODE = False
-                TextBox2.Text = ""
-                lblusername.Text = "Usercode not exist"
-                TextBox2.Enabled = False
-                MaskedTextBox1.Focus()
-                rs.Close()
-                Call connection_close()
-                Exit Sub
-            End If
-        End With
-        'Call connection_close()
+                    'enable password
+                    TextBox2.Enabled = True
+                    TextBox2.Focus()
+                    rs.Close()
+                    Call connection_close()
+
+                Else
+                    'MsgBox("User code not exist", MsgBoxStyle.Critical, "Warning Message")
+                    _flgUCODE = False
+                    TextBox2.Text = ""
+                    lblusername.Text = "Usercode not exist"
+                    TextBox2.Enabled = False
+                    MaskedTextBox1.Focus()
+                    rs.Close()
+                    Call connection_close()
+                    Exit Sub
+                End If
+            End With
+
+        Catch ex As Exception
+
+        End Try
+
+        'cn.Close()
     End Sub
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         msg = MsgBox("Are you sure you want to exit?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Exit")

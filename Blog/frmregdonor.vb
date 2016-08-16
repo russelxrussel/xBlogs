@@ -99,7 +99,9 @@ Public Class frmregdonor
                 With rs
                     If .State <> 0 Then .Close()
                     .Open("select * from dinfo", cn)
+
                     If rs.EOF = False Then
+                        .MoveLast()
                         TextBox1.Text = .Fields("id").Value
                     End If
                     .Close()
@@ -164,6 +166,8 @@ Public Class frmregdonor
 
                     .Fields("date").Value = Now.Date
 
+                    'Add new information: Reason: for stat purposes
+                    .Fields("IsPR").Value = True
 
                     .Update()
                 End With
@@ -224,6 +228,14 @@ Public Class frmregdonor
             Exit Sub
         End If
 
+        'Check value of Age
+        Dim Edad As Integer = 0
+        Edad = Integer.Parse(txtage.Text)
+        If Edad <= 14 Or Edad >= 66 Then
+            MsgBox("Age should 15 Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
+            Exit Sub
+        End If
+
         If RadioButton1.Checked = False And RadioButton2.Checked = False Then
             MsgBox("Please select a gender", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
@@ -270,6 +282,7 @@ Public Class frmregdonor
                     If .State <> 0 Then .Close()
                     .Open("select * from dinfo", cn)
                     If rs.EOF = False Then
+                        .MoveLast()
                         TextBox1.Text = .Fields("id").Value
                     End If
                     .Close()
@@ -333,6 +346,10 @@ Public Class frmregdonor
 
 
                     .Fields("date").Value = Now.Date
+
+                    'Add new information: Reason: for stat purposes
+                    .Fields("IsPR").Value = False
+
                     .Update()
                 End With
             End If
@@ -414,7 +431,7 @@ Public Class frmregdonor
 
         RadioButton1.Checked = True
 
-        cn.Close()
+        Call connection_close()
 
         picRecruiter.Image = Image.FromFile(_recruiterImageDefault)
        
@@ -513,11 +530,19 @@ Public Class frmregdonor
                 .MoveNext()
             End While
         End With
-        cn.Close()
+
+        Call connection_close()
     End Sub
 
     Private Sub ComboBox2_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox2.LostFocus
-        ComboBox2.Text = UCase(ComboBox2.Text)
+        Try
+
+            ComboBox2.Text = UCase(ComboBox2.Text)
+
+        Catch ex As Exception
+
+        End Try
+
     End Sub
 
     Private Sub ComboBox2_SelectedIndexChanged1(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox2.SelectedIndexChanged
@@ -574,7 +599,7 @@ Public Class frmregdonor
 
         End With
         ComboBox3.Text = UCase(ComboBox3.Text)
-        '   cn.Close()
+        Call connection_close()
     End Sub
     Private Sub recon()
         'Me.SInfoTableAdapter.Fill(Me.BlogDataSet8.SInfo
@@ -591,6 +616,24 @@ Public Class frmregdonor
         rs.Close()
         cn.Close()
     End Sub
+
+    Private Sub txtrecruiter_Enter(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtrecruiter.Enter
+        If (Not String.IsNullOrEmpty(txtrecruiter.Text)) Then
+            txtrecruiter.SelectionStart = 0
+            txtrecruiter.SelectionLength = txtrecruiter.Text.Length
+        End If
+
+    End Sub
+
+    
+    Sub selectAllText(ByVal tb As TextBox)
+        If (Not String.IsNullOrEmpty(tb.Text)) Then
+            tb.SelectionStart = 0
+            tb.SelectionLength = tb.Text.Length
+        End If
+
+    End Sub
+
     Private Sub txtrecruiter_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtrecruiter.KeyPress
         Dim ca As New DataTable
         Dim custDA As New OleDb.OleDbDataAdapter
@@ -602,7 +645,7 @@ Public Class frmregdonor
         dginfo.DataSource = ca
     End Sub
 
-  
+
 
     Private Sub dginfo_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles dginfo.Click
         On Error Resume Next
@@ -685,5 +728,8 @@ Public Class frmregdonor
 
     End Sub
 
-   
+
+    Private Sub txtrecruiter_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtrecruiter.TextChanged
+
+    End Sub
 End Class
