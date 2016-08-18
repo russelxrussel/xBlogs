@@ -34,6 +34,7 @@ Partial Class frmnavigation
         Me.Button9 = New System.Windows.Forms.Button
         Me.Button11 = New System.Windows.Forms.Button
         Me.Button12 = New System.Windows.Forms.Button
+        Me.Button10 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Button1
@@ -168,12 +169,25 @@ Partial Class frmnavigation
         Me.Button12.Text = "Preliminary Registration Per Level"
         Me.Button12.UseVisualStyleBackColor = False
         '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Button10.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.Black
+        Me.Button10.Location = New System.Drawing.Point(6, 354)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(262, 28)
+        Me.Button10.TabIndex = 12
+        Me.Button10.Text = "New Pre Registration"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'frmnavigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(276, 357)
+        Me.ClientSize = New System.Drawing.Size(276, 389)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button9)
@@ -204,4 +218,5 @@ Partial Class frmnavigation
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
 End Class

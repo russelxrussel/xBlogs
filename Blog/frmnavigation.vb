@@ -68,4 +68,10 @@
         Dim report11 As New Report11
         Report11.Show()
     End Sub
+
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+        On Error Resume Next
+        Dim preregRep As New prereg_report
+        preregRep.Show()
+    End Sub
 End Class

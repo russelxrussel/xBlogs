@@ -25,7 +25,6 @@ Partial Class frmregdonor
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmregdonor))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.TextBox6 = New System.Windows.Forms.TextBox
         Me.TextBox1 = New System.Windows.Forms.TextBox
@@ -655,7 +654,7 @@ Partial Class frmregdonor
         Me.dginfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Calibri", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.CornflowerBlue
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
@@ -666,14 +665,6 @@ Partial Class frmregdonor
         Me.dginfo.Name = "dginfo"
         Me.dginfo.ReadOnly = True
         Me.dginfo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dginfo.RowHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dginfo.RowHeadersWidth = 20
         Me.dginfo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dginfo.Size = New System.Drawing.Size(373, 158)
