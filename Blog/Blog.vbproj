@@ -313,6 +313,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="reportConnection.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmaccount_manager.resx">

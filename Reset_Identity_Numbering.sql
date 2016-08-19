@@ -1,0 +1,5 @@
+USE BLOG
+GO
+
+DBCC CHECKIDENT ('dbo.dinfo',RESEED, 0)
+GO

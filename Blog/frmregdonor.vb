@@ -40,7 +40,7 @@ Public Class frmregdonor
         Dim Edad As Integer = 0
         Edad = Integer.Parse(txtage.Text)
         If Edad <= 14 Or Edad >= 66 Then
-            MsgBox("Age should 15 Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
+            MsgBox("Age should 16 years old or Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
 
@@ -129,7 +129,7 @@ Public Class frmregdonor
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
                     .AddNew()
-                    .Fields("dcode").Value = Format("DM14-" + TextBox6.Text)
+                    .Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
                     .Fields("sname").Value = ComboBox1.Text
                     .Fields("fname").Value = ComboBox2.Text
                     .Fields("mname").Value = ComboBox3.Text
@@ -231,8 +231,8 @@ Public Class frmregdonor
         'Check value of Age
         Dim Edad As Integer = 0
         Edad = Integer.Parse(txtage.Text)
-        If Edad <= 14 Or Edad >= 66 Then
-            MsgBox("Age should 15 Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
+        If Edad <= 15 Or Edad >= 66 Then
+            MsgBox("Age should 16 years old or Above and not more than 65 years old.", MsgBoxStyle.Critical, "Warning Message")
             Exit Sub
         End If
 
@@ -310,7 +310,7 @@ Public Class frmregdonor
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
                     .AddNew()
-                    .Fields("dcode").Value = Format("DM14-" + TextBox6.Text)
+                    .Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
                     .Fields("sname").Value = ComboBox1.Text
                     .Fields("fname").Value = ComboBox2.Text
                     .Fields("mname").Value = ComboBox3.Text
