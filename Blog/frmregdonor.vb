@@ -1,15 +1,18 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Text.RegularExpressions
 Imports System.Data.OleDb.OleDbCommand
+
 Public Class frmregdonor
+    Dim objx As New DataClassX
 
     Dim _noRecruiterNum As String = "0000"
     Dim _noRecruiterName As String = "SSI*"
 
     Dim _recruiterType As Boolean = True
     Dim _recruiterImage As String = ""
-    Dim _recruiterImageDefault As String = "\\192.168.2.6\photo\x.jpg"
+    Dim _recruiterImageDefault As String = "\\192.168.2.14\share\xphoto\x.jpg"
 
+    Private _iNewAutoNum As Integer
 
     Private Sub TextBox4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
         txtage.CharacterCasing = CharacterCasing.Upper
@@ -95,6 +98,7 @@ Public Class frmregdonor
                 .Update()
                 .Close()
             Else
+
                 Dim a As String
                 With rs
                     If .State <> 0 Then .Close()
@@ -107,17 +111,21 @@ Public Class frmregdonor
                     .Close()
                 End With
 
-                TextBox1.Text = Val(TextBox1.Text) + 1
-                a = TextBox1.Text
-                If a.Length = 1 Then
-                    TextBox6.Text = "000" & a
-                ElseIf a.Length = 2 Then
-                    TextBox6.Text = "00" & a
-                ElseIf a.Length = 3 Then
-                    TextBox6.Text = "0" & a
-                ElseIf a.Length = 4 Then
-                    TextBox6.Text = a
-                End If
+                'TextBox1.Text = Val(TextBox1.Text) + 1
+                'a = TextBox1.Text
+                'If a.Length = 1 Then
+                '    TextBox6.Text = "000" & a
+                'ElseIf a.Length = 2 Then
+                '    TextBox6.Text = "00" & a
+                'ElseIf a.Length = 3 Then
+                '    TextBox6.Text = "0" & a
+                'ElseIf a.Length = 4 Then
+                '    TextBox6.Text = a
+                'End If
+
+
+                'GET CURRENT DONOR'S NUMBER
+                '
 
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
@@ -129,7 +137,9 @@ Public Class frmregdonor
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
                     .AddNew()
-                    .Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
+                    '.Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
+                    'New Approach for AutoNumbering on Donor
+                    .Fields("dcode").Value = getCurrentDonorNumber()
                     .Fields("sname").Value = ComboBox1.Text
                     .Fields("fname").Value = ComboBox2.Text
                     .Fields("mname").Value = ComboBox3.Text
@@ -169,7 +179,13 @@ Public Class frmregdonor
                     'Add new information: Reason: for stat purposes
                     .Fields("IsPR").Value = True
 
+
+                   
                     .Update()
+
+                    'UPDATE AUTONUMBERING
+                    objx.UPDATE_AUTONUMBER(objx.CURRENT_DONOR_NUM + 1)
+
                 End With
             End If
             .Close()
@@ -208,6 +224,11 @@ Public Class frmregdonor
         DateTimePicker1.Value = Now.Date
         txtrecruiter.ReadOnly = False
         dginfo.Enabled = True
+
+        'reload form
+        'Dim frm = New frmregdonor
+        'frm.Show()
+        'Me.Close()
 
     End Sub
 
@@ -288,17 +309,17 @@ Public Class frmregdonor
                     .Close()
                 End With
 
-                TextBox1.Text = Val(TextBox1.Text) + 1
-                a = TextBox1.Text
-                If a.Length = 1 Then
-                    TextBox6.Text = "000" & a
-                ElseIf a.Length = 2 Then
-                    TextBox6.Text = "00" & a
-                ElseIf a.Length = 3 Then
-                    TextBox6.Text = "0" & a
-                ElseIf a.Length = 4 Then
-                    TextBox6.Text = a
-                End If
+                'TextBox1.Text = Val(TextBox1.Text) + 1
+                'a = TextBox1.Text
+                'If a.Length = 1 Then
+                '    TextBox6.Text = "000" & a
+                'ElseIf a.Length = 2 Then
+                '    TextBox6.Text = "00" & a
+                'ElseIf a.Length = 3 Then
+                '    TextBox6.Text = "0" & a
+                'ElseIf a.Length = 4 Then
+                '    TextBox6.Text = a
+                'End If
 
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
@@ -310,7 +331,11 @@ Public Class frmregdonor
                 With rs
                     .Open("select * from dinfo", cn, 2, 2)
                     .AddNew()
-                    .Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
+                    '.Fields("dcode").Value = Format("DM16-" + TextBox6.Text)
+
+                    'New Approach for AutoNumbering on Donor
+                    .Fields("dcode").Value = getCurrentDonorNumber()
+
                     .Fields("sname").Value = ComboBox1.Text
                     .Fields("fname").Value = ComboBox2.Text
                     .Fields("mname").Value = ComboBox3.Text
@@ -351,6 +376,10 @@ Public Class frmregdonor
                     .Fields("IsPR").Value = False
 
                     .Update()
+
+                    'UPDATE AUTONUMBERING
+                    objx.UPDATE_AUTONUMBER(objx.CURRENT_DONOR_NUM + 1)
+
                 End With
             End If
             .Close()
@@ -391,13 +420,7 @@ Public Class frmregdonor
         dginfo.Enabled = True
     End Sub
 
-    Private Sub frmregdonor_Deactivate(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Deactivate
 
-    End Sub
-
-    Private Sub frmregdonor_Disposed(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Disposed
-
-    End Sub
 
     Private Sub frmregdonor_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
         If cn.State = 1 Then
@@ -406,8 +429,9 @@ Public Class frmregdonor
         Else
         End If
     End Sub
- 
+
     Private Sub frmregdonor_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        ' MsgBox(getCurrentDonorNumber())
 
         Dim dt As New DataTable
         Dim oleb As New OleDb.OleDbDataAdapter
@@ -434,7 +458,9 @@ Public Class frmregdonor
         Call connection_close()
 
         picRecruiter.Image = Image.FromFile(_recruiterImageDefault)
-       
+
+
+
     End Sub
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         On Error Resume Next
@@ -464,7 +490,7 @@ Public Class frmregdonor
         cn.Close()
     End Sub
 
-   
+
 
     Private Sub ComboBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles ComboBox1.KeyPress
 
@@ -492,7 +518,7 @@ Public Class frmregdonor
         ComboBox1.Text = UCase(ComboBox1.Text)
     End Sub
 
-   
+
 
 
     Private Sub ComboBox1_SelectedIndexChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -566,7 +592,7 @@ Public Class frmregdonor
         With rs
             .Open("select * from dinfo where sname='" + ComboBox1.Text + "' and fname='" + ComboBox2.Text + "' and mname='" + ComboBox3.Text + "'", cn)
             If .EOF = False Then
-                a = MsgBox("The donor's name exists!! Do you want to continue?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Continue")
+                a = MsgBox("The donor's name already exists!! Do you want to continue?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Continue")
                 If a = vbYes Then
                     If rs.EOF = False Then
                         TextBox8.Text = .Fields("gender").Value
@@ -585,21 +611,36 @@ Public Class frmregdonor
                         dginfo.Enabled = False
                         chkNoRecruiter.Enabled = False
                     End If
-                    cn.Close()
+                    '  cn.Close()
                 Else
+                    cn.Close()
                     ComboBox1.Text = ""
                     ComboBox2.Text = ""
                     ComboBox3.Text = ""
                     chkNoRecruiter.Enabled = True
                     dginfo.Enabled = True
-                    cn.Close()
+
+                    'Me.Close()
+
+
                 End If
 
+                'cn.Close()
             End If
 
         End With
-        ComboBox3.Text = UCase(ComboBox3.Text)
-        Call connection_close()
+
+        'Avoid Error Message to Display incase the user answer is NO.
+        Try
+
+            ComboBox3.Text = UCase(ComboBox3.Text)
+            cn.Close()
+
+        Catch ex As Exception
+
+        End Try
+
+        'ComboBox3.Text = UCase(ComboBox3.Text)
     End Sub
     Private Sub recon()
         'Me.SInfoTableAdapter.Fill(Me.BlogDataSet8.SInfo
@@ -625,7 +666,7 @@ Public Class frmregdonor
 
     End Sub
 
-    
+
     Sub selectAllText(ByVal tb As TextBox)
         If (Not String.IsNullOrEmpty(tb.Text)) Then
             tb.SelectionStart = 0
@@ -732,4 +773,48 @@ Public Class frmregdonor
     Private Sub txtrecruiter_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtrecruiter.TextChanged
 
     End Sub
+
+    'This will generate the last number of donors number
+    'and Add + 1 to it.
+    Private Function getCurrentDonorNumber() As String
+        'Get the data from auto number
+        objx.GET_AUTO_NUM()
+
+        'Format of AutoNumber
+        Dim sAutoNumFormat As String = ""
+        Dim iCurrNumber As Integer = objx.CURRENT_DONOR_NUM + 1
+
+        If iCurrNumber <= 9 Then
+            sAutoNumFormat = "000" & iCurrNumber.ToString()
+        ElseIf iCurrNumber >= 10 And iCurrNumber <= 99 Then
+            sAutoNumFormat = "00" & iCurrNumber.ToString()
+        ElseIf iCurrNumber >= 100 And iCurrNumber <= 999 Then
+            sAutoNumFormat = "0" & iCurrNumber.ToString()
+        ElseIf iCurrNumber >= 1000 Then
+            sAutoNumFormat = iCurrNumber.ToString()
+        End If
+
+
+        _iNewAutoNum = iCurrNumber
+
+        Dim sGetNumPrefix As String = objx.DONOR_NUM_PREFIX
+        
+
+        Dim DONORS_NUMBER As String = sGetNumPrefix & "-" & _
+                                      sAutoNumFormat
+
+        Return DONORS_NUMBER
+    End Function
+
+
+    'Validate Donor Record Existent
+    Private Function isDonorExist(ByVal _sLastName As String, ByVal _sFirstName As String, ByVal _sMI As String) As Boolean
+        Dim bExist As Boolean = False
+
+
+
+        Return bExist
+    End Function
+
+
 End Class

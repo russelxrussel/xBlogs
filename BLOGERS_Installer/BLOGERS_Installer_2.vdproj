@@ -219,7 +219,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\BLOGERS_Installer.msi"
+        "OutputFilename" = "8:Debug\\Debug_\\BLOGERS_Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -256,7 +256,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\BLOGERS_Installer.msi"
+        "OutputFilename" = "8:Debug\\Debug_\\BLOGERS_Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -270,7 +270,7 @@
             {
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
+            "PrerequisitesLocation" = "2:2"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
                 "Items"
@@ -279,6 +279,16 @@
                     {
                     "Name" = "8:.NET Framework 3.5"
                     "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.ReportViewer.8.0"
+                    {
+                    "Name" = "8:Microsoft Visual Studio 2008 Report Viewer"
+                    "ProductCode" = "8:Microsoft.ReportViewer.8.0"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.VSTORuntime.3.0"
+                    {
+                    "Name" = "8:Visual Studio Tools for the Office system 3.0 Runtime"
+                    "ProductCode" = "8:Microsoft.VSTORuntime.3.0"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -901,7 +911,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:B.L.O.G.E.R.S"
         "ProductCode" = "8:{0DDEA227-341D-4534-9721-B1C3AD214DB6}"
-        "PackageCode" = "8:{C9894DCE-F24E-435B-AFA5-FB1B8CF539B6}"
+        "PackageCode" = "8:{D51EABB2-1A4B-4A19-9FCE-8D5718CB7512}"
         "UpgradeCode" = "8:{A0AF9AC4-D20B-4704-B8BD-4FACA2598F45}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"

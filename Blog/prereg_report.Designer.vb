@@ -32,10 +32,8 @@ Partial Class prereg_report
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.SelectionFormula = ""
         Me.CrystalReportViewer1.Size = New System.Drawing.Size(648, 414)
         Me.CrystalReportViewer1.TabIndex = 1
-        Me.CrystalReportViewer1.ViewTimeSelectionFormula = ""
         '
         'prereg_report
         '

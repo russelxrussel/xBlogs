@@ -167,6 +167,7 @@
       <DependentUpon>BlogDataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="database_conn.vb" />
+    <Compile Include="DataClassX.vb" />
     <Compile Include="dsBloodType.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -531,6 +532,7 @@
       <DependentUpon>BlogDataSet9.xsd</DependentUpon>
     </None>
     <None Include="Blog_TemporaryKey.pfx" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="dsBloodType.xsc">
       <DependentUpon>dsBloodType.xsd</DependentUpon>
     </None>

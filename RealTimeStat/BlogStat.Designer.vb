@@ -49,8 +49,18 @@ Partial Class RealTimeBlogStat
         Me.lblDate = New System.Windows.Forms.Label
         Me.lblRegistered = New System.Windows.Forms.Label
         Me.wmvPlayer = New AxWMPLib.AxWindowsMediaPlayer
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.Panel2 = New System.Windows.Forms.Panel
+        Me.picRecruiter = New System.Windows.Forms.PictureBox
+        Me.Panel3 = New System.Windows.Forms.Panel
+        Me.lblStudNum = New System.Windows.Forms.Label
+        Me.lblStudName = New System.Windows.Forms.Label
+        Me.lblLevelSection = New System.Windows.Forms.Label
         Me.GroupBox1.SuspendLayout()
         CType(Me.wmvPlayer, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
+        CType(Me.picRecruiter, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -154,7 +164,7 @@ Partial Class RealTimeBlogStat
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.ProgressBar1)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Location = New System.Drawing.Point(2, 505)
+        Me.GroupBox1.Location = New System.Drawing.Point(209, 524)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(235, 160)
         Me.GroupBox1.TabIndex = 11
@@ -221,7 +231,7 @@ Partial Class RealTimeBlogStat
         Me.Clock2.HourHand.RelativeRadius = 0.65!
         Me.Clock2.HourHand.Tag = Nothing
         Me.Clock2.HourHand.Width = 5.0!
-        Me.Clock2.Location = New System.Drawing.Point(12, 67)
+        Me.Clock2.Location = New System.Drawing.Point(21, 109)
         Me.Clock2.MinuteHand.PaintAttributes = New AnalogClock.PaintAttributes(AnalogClock.PaintObject.Brush, 1.0!)
         Me.Clock2.MinuteHand.RelativeRadius = 0.8!
         Me.Clock2.MinuteHand.Tag = Nothing
@@ -286,9 +296,9 @@ Partial Class RealTimeBlogStat
         '
         Me.lblDate.BackColor = System.Drawing.Color.Transparent
         Me.lblDate.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDate.Location = New System.Drawing.Point(54, 262)
+        Me.lblDate.Location = New System.Drawing.Point(4, 49)
         Me.lblDate.Name = "lblDate"
-        Me.lblDate.Size = New System.Drawing.Size(109, 46)
+        Me.lblDate.Size = New System.Drawing.Size(174, 46)
         Me.lblDate.TabIndex = 68
         Me.lblDate.Text = "date"
         Me.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -314,12 +324,102 @@ Partial Class RealTimeBlogStat
         Me.wmvPlayer.Size = New System.Drawing.Size(386, 284)
         Me.wmvPlayer.TabIndex = 13
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Location = New System.Drawing.Point(21, 279)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(148, 5)
+        Me.Panel1.TabIndex = 70
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(16, 290)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(157, 18)
+        Me.Label7.TabIndex = 71
+        Me.Label7.Text = "TOP RECRUITER"
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Green
+        Me.Panel2.Controls.Add(Me.picRecruiter)
+        Me.Panel2.Location = New System.Drawing.Point(42, 316)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(105, 109)
+        Me.Panel2.TabIndex = 106
+        '
+        'picRecruiter
+        '
+        Me.picRecruiter.BackColor = System.Drawing.Color.Gray
+        Me.picRecruiter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.picRecruiter.Location = New System.Drawing.Point(3, 3)
+        Me.picRecruiter.Name = "picRecruiter"
+        Me.picRecruiter.Size = New System.Drawing.Size(99, 103)
+        Me.picRecruiter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picRecruiter.TabIndex = 99
+        Me.picRecruiter.TabStop = False
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.White
+        Me.Panel3.Location = New System.Drawing.Point(21, 473)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(148, 5)
+        Me.Panel3.TabIndex = 107
+        '
+        'lblStudNum
+        '
+        Me.lblStudNum.AutoSize = True
+        Me.lblStudNum.BackColor = System.Drawing.Color.Transparent
+        Me.lblStudNum.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStudNum.Location = New System.Drawing.Point(42, 431)
+        Me.lblStudNum.Name = "lblStudNum"
+        Me.lblStudNum.Size = New System.Drawing.Size(107, 13)
+        Me.lblStudNum.TabIndex = 108
+        Me.lblStudNum.Text = "TOP RECRUITER"
+        Me.lblStudNum.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblStudName
+        '
+        Me.lblStudName.AutoSize = True
+        Me.lblStudName.BackColor = System.Drawing.Color.Transparent
+        Me.lblStudName.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStudName.Location = New System.Drawing.Point(42, 444)
+        Me.lblStudName.Name = "lblStudName"
+        Me.lblStudName.Size = New System.Drawing.Size(101, 13)
+        Me.lblStudName.TabIndex = 109
+        Me.lblStudName.Text = "TOP RECRUITER"
+        Me.lblStudName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblLevelSection
+        '
+        Me.lblLevelSection.AutoSize = True
+        Me.lblLevelSection.BackColor = System.Drawing.Color.Transparent
+        Me.lblLevelSection.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLevelSection.Location = New System.Drawing.Point(42, 457)
+        Me.lblLevelSection.Name = "lblLevelSection"
+        Me.lblLevelSection.Size = New System.Drawing.Size(101, 13)
+        Me.lblLevelSection.TabIndex = 110
+        Me.lblLevelSection.Text = "TOP RECRUITER"
+        Me.lblLevelSection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'RealTimeBlogStat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(1020, 716)
+        Me.ClientSize = New System.Drawing.Size(1020, 686)
+        Me.Controls.Add(Me.lblLevelSection)
+        Me.Controls.Add(Me.lblStudName)
+        Me.Controls.Add(Me.lblStudNum)
+        Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.lblRegistered)
         Me.Controls.Add(Me.lblDate)
         Me.Controls.Add(Me.lblDeferred)
@@ -341,6 +441,8 @@ Partial Class RealTimeBlogStat
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.wmvPlayer, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        CType(Me.picRecruiter, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -370,5 +472,13 @@ Partial Class RealTimeBlogStat
     Friend WithEvents lblRegistered As System.Windows.Forms.Label
     Friend WithEvents txtPath As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents picRecruiter As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel3 As System.Windows.Forms.Panel
+    Friend WithEvents lblStudNum As System.Windows.Forms.Label
+    Friend WithEvents lblStudName As System.Windows.Forms.Label
+    Friend WithEvents lblLevelSection As System.Windows.Forms.Label
 
 End Class

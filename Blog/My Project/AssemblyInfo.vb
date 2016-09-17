@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("SSI - BLOG Electronic Registration System")> 
 <Assembly: AssemblyCompany("Statefields School Inc.")> 
 <Assembly: AssemblyProduct("B.L.O.G.E.R.S")> 
-<Assembly: AssemblyCopyright("Copyright © statefields 2016")> 
+<Assembly: AssemblyCopyright("Copyright © Statefields 2016")> 
 <Assembly: AssemblyTrademark("russel")> 
 
 <Assembly: ComVisible(False)>

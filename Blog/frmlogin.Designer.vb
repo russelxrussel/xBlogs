@@ -251,7 +251,7 @@ Partial Class frmlogin
         Me.Name = "frmlogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "LOGIN - User Authentication"
-        Me.TransparencyKey = System.Drawing.SystemColors.ControlLightLight
+        Me.TransparencyKey = System.Drawing.Color.WhiteSmoke
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

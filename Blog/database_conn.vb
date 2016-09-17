@@ -3,6 +3,8 @@
 Module database_conn
     Public cn As New ADODB.Connection
     Public rs As New ADODB.Recordset
+    'Public con As SqlConnection
+    'Public cmd As SqlCommand
     Public strsql As String
     Public msg As String
     Public frmhome As New frmhome
@@ -16,15 +18,23 @@ Module database_conn
     Public _SERVERDATETIME As New DateTime
     Public _ACCESS As String = ""
 
+   
+
     Public Sub connect()
         Try
             'Original
             cn.Open("Provider=SQLOLEDB;Data Source=192.168.2.4;user id=sa;Initial Catalog=Blog")
             cn.CursorLocation = ADODB.CursorLocationEnum.adUseClient
+            'cn.Open("Data Source=192.168.2.4;Initial Catalog=BLOG;User ID=sa")
         Catch ex As Exception
             MsgBox("Error Message" + ex.ToString)
         End Try
     End Sub
+
+    'Public Sub New()
+    '    con = New SqlConnection("Data Source=192.168.2.4;Initial Catalog=Blog;User id=sa")
+    'End Sub
+
     Public Sub connection_close()
         cn.Close()
     End Sub
@@ -42,4 +52,6 @@ Module database_conn
             MsgBox("Error Message" + ex.ToString)
         End Try
     End Sub
+
+   
 End Module

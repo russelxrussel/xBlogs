@@ -503,6 +503,7 @@ C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmre
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmregdonor.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.frmstudregistration.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.prereg_report.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.Report1.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.Report10.resources
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.Report11.resources
@@ -520,4 +521,3 @@ C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.application
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.exe
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.xml
 C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\Blog.pdb
-C:\Users\russel\Desktop\MyGitHub\xBlogs\Blog\obj\Debug\WindowsApplication1.prereg_report.resources

@@ -26,7 +26,7 @@ Public Class RealTimeBlogStat
 
 
         'default path of video
-        txtPath.Text = "C:\blog.avi"
+        txtPath.Text = "C:\xblog.avi"
 
         'set time to clock
         'Will populate the Server Date and time to Analog Clock
@@ -50,6 +50,19 @@ Public Class RealTimeBlogStat
         lblDeferred.Text = objx.DeferredStat(D)
         lblQualified.Text = objx.QualifiedStat(Q)
         lblTotalRegistered.Text = objx.TotalRegistered
+
+        Call objx.TOP1()
+        lblStudNum.Text = objx.STUDNUM
+        lblStudName.Text = objx.STUDNAME
+        lblLevelSection.Text = objx.STUDLEVELSECTION
+
+        If String.IsNullOrEmpty(objx.STUDENTIMAGE) Then
+            picRecruiter.Image = Image.FromFile("\\192.168.2.14\share\xphoto\x.jpg")
+        Else
+            picRecruiter.Image = Image.FromFile(objx.STUDENTIMAGE)
+        End If
+
+
     End Sub
 
 

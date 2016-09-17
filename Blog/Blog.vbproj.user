@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <PublishUrlHistory>C:\Documents and Settings\IT-NORWIN\Desktop\First Trial\|C:\Documents and Settings\It-norwin\Desktop\|C:\Documents and Settings\norwin\Desktop\</PublishUrlHistory>
     <InstallUrlHistory>
     </InstallUrlHistory>

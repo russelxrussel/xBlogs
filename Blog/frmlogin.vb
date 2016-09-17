@@ -4,6 +4,8 @@ Public Class frmlogin
     Public _name As String = ""
     Dim _flgUCODE As Boolean = False
     Dim _status As Integer = 0
+    Dim oDataClass As New DataClassX
+
 
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -37,15 +39,16 @@ Public Class frmlogin
 
 
 
-        MaskedTextBox1.Focus()
+        ' MaskedTextBox1.Focus()
         MaskedTextBox1.SelectionStart = 4
         AcceptButton = Button3
     End Sub
     Private Sub MaskedTextBox1_LostFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles MaskedTextBox1.LostFocus
+
+        Call connect()
+
         Try
 
-
-            Call connect()
             With rs
                 .Open("Select * from useracct where usercode='" + MaskedTextBox1.Text + "'", cn)
                 If rs.EOF = False Then
@@ -70,7 +73,7 @@ Public Class frmlogin
                     TextBox2.Enabled = True
                     TextBox2.Focus()
                     rs.Close()
-                    Call connection_close()
+                    cn.Close()
 
                 Else
                     'MsgBox("User code not exist", MsgBoxStyle.Critical, "Warning Message")
@@ -80,16 +83,16 @@ Public Class frmlogin
                     TextBox2.Enabled = False
                     MaskedTextBox1.Focus()
                     rs.Close()
-                    Call connection_close()
-                    Exit Sub
+                    cn.Close()
+                    'Exit Sub
                 End If
             End With
 
         Catch ex As Exception
-
+            '  MessageBox.Show("ERROR: " & ex.ToString())
         End Try
 
-        'cn.Close()
+        '  cn.Close()
     End Sub
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         msg = MsgBox("Are you sure you want to exit?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Exit")
@@ -248,7 +251,8 @@ Public Class frmlogin
 
                         MsgBox("Hi " & _name & ", Welcome to BLOG-Electronic Registration System", MsgBoxStyle.Information, "Login Success")
 
-                        If _access = "Level 1" Then
+                        'Access Data Entry of Donors
+                        If _ACCESS = "L1" Then
                             Call connection_close()
                             Dim frmhome As New frmhome
                             frmhome.Show()
@@ -264,7 +268,8 @@ Public Class frmlogin
                             frmhome.ToolStripButton9.Enabled = False
                             Me.Close()
                         End If
-                        If _access = "Level 2" Then
+                        'Access only Recording of Station
+                        If _ACCESS = "L2" Then
                             Call connection_close()
                             Dim frmhome As New frmhome
                             frmhome.Show()
@@ -274,13 +279,14 @@ Public Class frmlogin
                             frmhome.ToolStripButton14.Enabled = False
                             frmhome.ToolStripButton11.Enabled = True
                             frmhome.ToolStripButton10.Enabled = True
-                            '   frmhome.ToolStripButton1.Enabled = True
+                            'frmhome.ToolStripButton1.Enabled = True
                             frmhome.ToolStripButton15.Enabled = True
-                            frmhome.ToolStripButton12.Enabled = True
+                            frmhome.ToolStripButton12.Enabled = False
                             frmhome.ToolStripButton9.Enabled = False
                             Me.Close()
                         End If
-                        If _access = "Level 3" Then
+                        'Access 
+                        If _ACCESS = "L3" Then
                             Call connection_close()
                             Dim frmhome As New frmhome
                             frmhome.Show()
@@ -297,7 +303,8 @@ Public Class frmlogin
                             frmhome.ToolStripButton9.Enabled = False
                             Me.Close()
                         End If
-                        If _access = "Level 4" Then
+                        'Access All
+                        If _ACCESS = "L4" Then
                             Call connection_close()
                             Dim frmhome As New frmhome
                             frmhome.Show()
@@ -350,5 +357,9 @@ Public Class frmlogin
 
     Private Sub Button2_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button2.MouseLeave
         Button2.BackColor = Color.LightGray
+    End Sub
+
+    Private Sub MaskedTextBox1_MaskInputRejected(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MaskInputRejectedEventArgs) Handles MaskedTextBox1.MaskInputRejected
+
     End Sub
 End Class

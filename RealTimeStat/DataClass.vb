@@ -8,6 +8,13 @@ Public Class DataClass
     Public dt As DataTable
     Public str As String
 
+    Public STUDNUM As String
+    Public STUDNAME As String
+    Public STUDLEVELSECTION As String
+    Public STUDENTIMAGE As String
+
+    'Public CURRENT_DONOR_NUM As Integer
+    'Public DONOR_NUM_PREFIX As String
 
     Public Sub New()
         con = New SqlConnection("Data Source=192.168.2.4;Initial Catalog=Blog;User id=sa")
@@ -32,6 +39,42 @@ Public Class DataClass
         con.Close()
         Return i
     End Function
+
+
+    Public Sub TOP1()
+
+        Dim sqlcon As New SqlConnection("Data Source=192.168.2.4;Initial Catalog=Blog;User id=sa")
+
+        Dim strquery As String = "spTopRecruiter"
+
+        Using (sqlcon)
+            Dim sqlcmd As New SqlCommand(strquery, sqlcon)
+            sqlcmd.CommandType = CommandType.StoredProcedure
+
+            sqlcon.Open()
+
+            Dim sqlReader As SqlDataReader = sqlcmd.ExecuteReader
+
+            If sqlReader.HasRows Then
+                While (sqlReader.Read())
+                    STUDNUM = sqlReader.GetString(0)
+                    STUDNAME = sqlReader.GetString(2)
+                    STUDLEVELSECTION = sqlReader.GetString(1)
+                    STUDENTIMAGE = sqlReader.GetString(3)
+                End While
+            Else
+                STUDNUM = ""
+                STUDNAME = ""
+                STUDLEVELSECTION = ""
+                STUDENTIMAGE = ""
+
+
+            End If
+
+        End Using
+
+    End Sub
+
 
     Public Function ProcessingStat(ByVal processingValue As Integer) As Integer
         Dim i As Integer

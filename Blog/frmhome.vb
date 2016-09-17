@@ -93,8 +93,8 @@ Public Class frmhome
 
 
         lblSystemInfo.Text = "Statefields School Inc." & vbNewLine & _
-                             "B.L.O.G.Electronic Registration System" & vbNewLine & _
-                             "Copyright 2014"
+                             "B.L.O.G.Electronic Registration System ©" & vbNewLine & _
+                             "SSI-IT 2016"
 
 
       
